@@ -12,7 +12,7 @@ export default function HeroSection() {
         className="max-w-3xl text-center"
       >
         <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-4">
-          Hi, I'm <span className="text-6xl font-bold bg-gradient-to-r from-sky-400 via-pink-400 to-purple-400 bg-clip-text text-transparent mb-4">Sagar Ghat</span>
+          Hi, I am <span className="text-6xl font-bold bg-gradient-to-r from-sky-400 via-pink-400 to-purple-400 bg-clip-text text-transparent mb-4">Sagar Ghat</span>
         </h1>
 
         <p className="text-yellow-400 text-2xl font-mono mb-4 h-10">
