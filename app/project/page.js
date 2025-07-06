@@ -11,7 +11,7 @@ const allProjects = [
     tech: ['Next.js', 'Tailwind'],
     image: '/portfolio.png',
     demoLink: 'https://portfolio-orpin-beta-49.vercel.app/',
-    codeLink: 'https://github.com/yourusername/portfolio',
+    codeLink: 'https://github.com/SagarGhat1306/portfolio/',
   },
   {
     title: 'Inventory Management System',
