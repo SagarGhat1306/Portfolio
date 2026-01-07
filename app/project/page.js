@@ -3,14 +3,13 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion'; 
 
-
 const allProjects = [
     {
     title: 'FlexWear - E-commerce',
     description: 'AI-powered chatbot using GPT-J with Node.js backend.',
     tech: ['React', 'Node.js'],
     image: '/FlexWear.jpg',
-    demoLink: 'https://vrihaacreation-frontend.vercel.app/',
+    demoLink: process.env.NEXT_PUBLIC_ECOMMERCE_URL,
     codeLink: 'https://github.com/SagarGhat1306/vrihaacreation_final',
   },
   {
