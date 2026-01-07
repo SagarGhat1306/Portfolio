@@ -1,10 +1,18 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
 
 
 const allProjects = [
+    {
+    title: 'FlexWear - E-commerce',
+    description: 'AI-powered chatbot using GPT-J with Node.js backend.',
+    tech: ['React', 'Node.js'],
+    image: '/FlexWear.jpg',
+    demoLink: 'https://vrihaacreation-frontend.vercel.app/',
+    codeLink: 'https://github.com/SagarGhat1306/vrihaacreation_final',
+  },
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio built with Next.js, Tailwind CSS.',
@@ -45,10 +53,26 @@ const allProjects = [
     demoLink: 'https://chat-ai-demo.com',
     codeLink: 'https://github.com/yourusername/ai-chat',
   },
+    {
+    title: 'AI Chat App',
+    description: 'AI-powered chatbot using GPT-J with Node.js backend.',
+    tech: ['React', 'Node.js'],
+    image: '/Ai_chat.jpg',
+    demoLink: 'https://chat-ai-demo.com',
+    codeLink: 'https://github.com/yourusername/ai-chat',
+  },
+    {
+    title: 'AI Chat App',
+    description: 'AI-powered chatbot using GPT-J with Node.js backend.',
+    tech: ['React', 'Node.js'],
+    image: '/Ai_chat.jpg',
+    demoLink: 'https://chat-ai-demo.com',
+    codeLink: 'https://github.com/yourusername/ai-chat',
+  },
 ];
 
 
-const filters = ['All', 'Next.js', 'React', 'Node.js', 'MySQL', 'Tailwind'];
+const filters = ['All', 'Next.js', 'React', 'Node.js/Express.js', 'MongoDB bMySQL', 'Tailwind'];
 
 export default function ProjectsSection() {
   const [selectedFilter, setSelectedFilter] = useState('All');
